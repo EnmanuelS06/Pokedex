@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <!-- Tab Icon on dysplay reference -->
+    <link rel="icon" type="img/png" href="./Resource/Tabicon.png">
+    <!-- Stylesheet reference -->
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+
+    <header>
+        <!-- Navigator -->
+        <nav class="nav">
+            <!-- Page Image icon reference -->
+            <img src="./Resource/icon.png"  alt="PokedexIcon">
+            <!-- List show -->
+            <ul class="nav-list">
+                <!-- Each pokemon tyope is referenced in a button inside de list -->
+                <li class="nav-Item"> <button class="btn-Header" id="all">All Types</button></li>
+                <li class="nav-Item"> <button class="btn-Header normal" id="normal">Normal</button></li>
+                <li class="nav-Item"> <button class="btn-Header fire" id="fire">Fire</button></li>
+                <li class="nav-Item"> <button class="btn-Header water" id="water">Water</button></li>
+                <li class="nav-Item"> <button class="btn-Header grass" id="grass">Grass</button></li>
+                <li class="nav-Item"> <button class="btn-Header electric" id="Electric">Electric</button></li>
+                <li class="nav-Item"> <button class="btn-Header ice" id="ice">Ice</button></li>
+                <li class="nav-Item"> <button class="btn-Header fight" id="fight">Fight</button></li>
+                <li class="nav-Item"> <button class="btn-Header poison" id="poison">Poison</button></li>
+                <li class="nav-Item"> <button class="btn-Header ground" id="ground">Ground</button></li>
+                <li class="nav-Item"> <button class="btn-Header flying" id="flying">Flying</button></li>
+                <li class="nav-Item"> <button class="btn-Header psychic" id="psychic">Psychic</button></li>
+                <li class="nav-Item"> <button class="btn-Header bug" id="bug">Bug</button></li>
+                <li class="nav-Item"> <button class="btn-Header rock" id="rock">Rock</button></li>
+                <li class="nav-Item"> <button class="btn-Header ghost" id="ghost">Ghost</button></li>
+                <li class="nav-Item"> <button class="btn-Header dark" id="dark">Dark</button></li>
+                <li class="nav-Item"> <button class="btn-Header dragon" id="dragon">Dragon</button></li>
+                <li class="nav-Item"> <button class="btn-Header steel" id="steel">Steel</button></li>
+                <li class="nav-Item"> <button class="btn-Header fairy" id="fairy">Fairy</button></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        
+        <div id="all">
+            <div class="all-pokenon" id="pokemonList">
+                <div class="pokemon">
+                    <p class=""pokemon-id-back>#025</p>
+                    <div class="pokemon-img">
+                        <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/shiny/25.png" 
+                        alt="pikachu">
+                    </div>
+                    <div class="pokemon-info">
+                        <div class="name-container">
+                            <p class="pokemon-id">#025</p>
+                            <h2 class="pokemon-nombre">Pikachu</h2>
+                        </div>
+                        <div class="pokemon-type">
+                            <p class="electric type">Electric</p>
+                            <p class="fighting type">Fighting</p>
+                        </div>
+                        <div class="pokemon-stats">
+                            <p class="height">4.0m</p>
+                            <p class="weight">6kg</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="./index.js"></script>
+</body>
+</html>
